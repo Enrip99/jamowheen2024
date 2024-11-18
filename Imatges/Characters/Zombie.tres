@@ -1,0 +1,37 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://n54bdgxlte0m"]
+
+[ext_resource type="Texture2D" uid="uid://b38nkafts46u0" path="res://Imatges/Characters/zombie.png" id="1_k4kh3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8mavw"]
+atlas = ExtResource("1_k4kh3")
+region = Rect2(696, 480, 174, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5s3ui"]
+atlas = ExtResource("1_k4kh3")
+region = Rect2(0, 240, 174, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygukw"]
+atlas = ExtResource("1_k4kh3")
+region = Rect2(174, 240, 174, 240)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8mavw")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5s3ui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygukw")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 3.0
+}]

@@ -1,0 +1,261 @@
+[gd_scene load_steps=32 format=3 uid="uid://bktc65k28dyeh"]
+
+[ext_resource type="Script" path="res://Escenes/escena_principal.gd" id="1_1rrip"]
+[ext_resource type="Texture2D" uid="uid://bem8c1e8a552o" path="res://Imatges/Fons/carrer.png" id="1_7o317"]
+[ext_resource type="Texture2D" uid="uid://bk8xymwr0d57k" path="res://Imatges/Fons/parada.png" id="2_wnudd"]
+[ext_resource type="Texture2D" uid="uid://bjsqlqonee0vd" path="res://Imatges/Altres/tusgsal.png" id="3_eubm4"]
+[ext_resource type="PackedScene" uid="uid://ckie10spiedx3" path="res://Escenes/persona_caminant.tscn" id="5_3h7y4"]
+[ext_resource type="Texture2D" uid="uid://c3fpnh60md5m" path="res://Imatges/Altres/Marctexte.png" id="6_d1m3t"]
+[ext_resource type="AudioStream" uid="uid://cr00js6mp1b3c" path="res://Audio/SoAmbiental.mp3" id="7_twv78"]
+[ext_resource type="AudioStream" uid="uid://cswrhql8fssgb" path="res://Audio/jumpscare.mp3" id="8_xtqkj"]
+[ext_resource type="Texture2D" uid="uid://dhro2bj1rywtx" path="res://Imatges/Altres/jumpscare.png" id="9_rrbou"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qtlwr"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 0, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yv0vw"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 722, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_crjti"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 1444, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b5rgw"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 2166, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpepb"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 2888, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ntwyt"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 3610, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jk0ew"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 4332, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e73qk"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 5054, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ct8wx"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 5776, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvm4o"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 6498, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7v6qg"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 7220, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3h5d7"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 7942, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jisfm"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 8664, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j01fc"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 9386, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_emptd"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 10108, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mw0ch"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 10830, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mk4n"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 11552, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4a8re"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 12274, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rpy0x"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 12996, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_js612"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 13718, 1280, 722)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d0dxn"]
+atlas = ExtResource("9_rrbou")
+region = Rect2(0, 14440, 1280, 722)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0b8cb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qtlwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yv0vw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_crjti")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b5rgw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpepb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ntwyt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jk0ew")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e73qk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ct8wx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvm4o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7v6qg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3h5d7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jisfm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j01fc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_emptd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mw0ch")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mk4n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4a8re")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rpy0x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_js612")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d0dxn")
+}],
+"loop": false,
+"name": &"default",
+"speed": 30.0
+}]
+
+[node name="Escena principal" type="Node2D"]
+script = ExtResource("1_1rrip")
+
+[node name="ArtEstatic" type="Node2D" parent="."]
+
+[node name="Fons" type="Sprite2D" parent="ArtEstatic"]
+texture = ExtResource("1_7o317")
+centered = false
+
+[node name="Parada" type="Sprite2D" parent="ArtEstatic"]
+z_index = 4
+texture = ExtResource("2_wnudd")
+centered = false
+
+[node name="Tusgsal" type="Sprite2D" parent="."]
+z_index = 3
+position = Vector2(-523, 179)
+texture = ExtResource("3_eubm4")
+
+[node name="PersonatgeJugador" parent="." instance=ExtResource("5_3h7y4")]
+z_index = 5
+position = Vector2(1600, 900)
+
+[node name="FadeInCanvas" type="CanvasLayer" parent="."]
+
+[node name="RectFadeIn" type="ColorRect" parent="FadeInCanvas"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0)
+
+[node name="TempSortidaBus" type="Timer" parent="."]
+one_shot = true
+
+[node name="TempsNouEsdeveniment" type="Timer" parent="."]
+one_shot = true
+
+[node name="TempEsdevenimentAleatori" type="Timer" parent="."]
+wait_time = 3.0
+autostart = true
+
+[node name="ContenidorTexte" type="NinePatchRect" parent="."]
+z_index = 6
+offset_left = 66.0
+offset_top = 453.0
+offset_right = 1123.0
+offset_bottom = 557.0
+size_flags_horizontal = 4
+texture = ExtResource("6_d1m3t")
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+
+[node name="Texte" type="RichTextLabel" parent="ContenidorTexte"]
+layout_mode = 0
+offset_left = 20.0
+offset_right = 1757.0
+offset_bottom = 471.0
+theme_override_font_sizes/bold_italics_font_size = 64
+theme_override_font_sizes/italics_font_size = 64
+theme_override_font_sizes/mono_font_size = 64
+theme_override_font_sizes/normal_font_size = 64
+theme_override_font_sizes/bold_font_size = 64
+bbcode_enabled = true
+text = "[color=lightblue]¿Ké [wave][i]pasha[/i][/wave] ermano?\""
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_twv78")
+autoplay = true
+parameters/looping = true
+
+[node name="SFXPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_xtqkj")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Jumpscare" type="AnimatedSprite2D" parent="."]
+visible = false
+z_index = 8
+scale = Vector2(1.5, 1.5)
+sprite_frames = SubResource("SpriteFrames_0b8cb")
+frame = 20
+frame_progress = 1.0
+centered = false
+
+[connection signal="timeout" from="TempSortidaBus" to="." method="_on_temp_sortida_bus_timeout"]
+[connection signal="timeout" from="TempsNouEsdeveniment" to="." method="_on_temps_nou_esdeveniment_timeout"]
+[connection signal="timeout" from="TempEsdevenimentAleatori" to="." method="_on_temp_esdeveniment_aleatori_timeout"]
+[connection signal="animation_finished" from="Jumpscare" to="." method="_on_jumpscare_animation_finished"]

@@ -1,0 +1,18 @@
+[i]Oh, és l'Albert... Però sembla que no m'ha vist.
+A) "..." - ...
+[i]Oh, aqui ve un altre bus.
+[i]No, sembla que no ho és
+BUS
+ARRIBA PER LA DRETA - 5
++ Noooooooo Se m'ha escapat als nassos. Merda.
+SALT
+B) "Bona nit, Albert!" - Ai ondia hola Àlex, no t'havia vist, vaig tot despistat.
+Què, tot bé com sempre? Amb l'hora que és, imagino que deus estar ben cansat.
+A)"Ja ho pots ben dir" - Es clar, haver d'agafar el nitbus és una feinada
+B)"No creguis, no he fet gairebé res en tot el dia" - Ondia quina enveja, jo vinc de fer dos torns avui a la feina.
++ Albert! Àlex! Hola i adéu!
+ARRIBA PER LA DRETA - 1
++ Vinc i me'n vaig, que aqui ve el meu bus!
+- Òndia, tio, Jaume! Afanya't!
+BUS <---- aqui és on s'ajunten
+

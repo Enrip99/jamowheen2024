@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqnle1xjpwad6"]
+
+[ext_resource type="Texture2D" uid="uid://dxwxls2qb8ig1" path="res://Imatges/Altres/cotxe.png" id="1_xjr3a"]
+
+[node name="Cotxe" type="Sprite2D"]
+z_index = 2
+position = Vector2(2126, 620)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_xjr3a")

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckie10spiedx3"]
+
+[ext_resource type="SpriteFrames" uid="uid://8iwxujwrogb0" path="res://Imatges/Characters/Player.tres" id="1_rijow"]
+[ext_resource type="Script" path="res://Escenes/personatge_esperant.gd" id="2_obfee"]
+
+[node name="PersonaCaminant" type="AnimatedSprite2D"]
+sprite_frames = ExtResource("1_rijow")
+animation = &"Walk"
+autoplay = "Walk"
+script = ExtResource("2_obfee")
